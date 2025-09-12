@@ -32,7 +32,7 @@ const ProjectsModel = [
 
         tags: ["React Js"],
         liveUrl: null,
-        githubUrl: "#",
+        githubUrl: "https://github.com/Lutfi1412/Portofolio",
       },
       {
         tittle: "Queue Management Web",
