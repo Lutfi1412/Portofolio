@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 35px;   /* kecilin lebar */
+  height: 35px;  /* kecilin tinggi */
+  font-size: 20px !important; /* kecilin ikon */
+  color: #8714fb; /* ungu */
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px !important; /* kecilin icon arrow */
+}
+
+
+
+
