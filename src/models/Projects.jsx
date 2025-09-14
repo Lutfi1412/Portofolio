@@ -28,7 +28,7 @@ const ProjectsModel = [
         image: "/images/web/porto.png",
 
         tags: ["React Js"],
-        liveUrl: null,
+        liveUrl: "https://portofolio-livid-one.vercel.app/",
         githubUrl: "https://github.com/Lutfi1412/Portofolio",
       },
       {
