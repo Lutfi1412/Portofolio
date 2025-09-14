@@ -15,18 +15,22 @@ export default function Contact() {
         Let's discuss how we can work together to bring your ideas to life.
       </p>
 
-      <div className="grid md:grid-cols-3 gap-8 mb-12">
+      <div className="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 mb-12">
         <a
           href="mailto:lutfirobbani369@gmail.com"
           className="group block text-center"
         >
           {/* Lingkaran Icon */}
-          <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4 transition-transform duration-300 group-hover:scale-110">
-            <Mail className="text-white" size={24} />
+          <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-4 transition-transform duration-300 group-hover:scale-110">
+            <Mail className="text-white" size={18} md:size={24} />
           </div>
-          <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
+          <h3 className="text-sm md:text-lg font-semibold text-white mb-1 md:mb-2">
+            Email
+          </h3>
           <div className="opacity-0 -translate-y-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
-            <p className="text-gray-300">lutfirobbani369@gmail.com</p>
+            <p className="text-gray-300 text-xs md:text-base">
+              lutfirobbani369@gmail.com
+            </p>
           </div>
         </a>
 
@@ -37,12 +41,14 @@ export default function Contact() {
           className="group block text-center"
         >
           {/* Lingkaran Icon */}
-          <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4 transition-transform duration-300 group-hover:scale-110">
-            <Linkedin className="text-white" size={24} />
+          <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-4 transition-transform duration-300 group-hover:scale-110">
+            <Linkedin className="text-white" size={18} md:size={24} />
           </div>
-          <h3 className="text-lg font-semibold text-white mb-2">LinkedIn</h3>
+          <h3 className="text-sm md:text-lg font-semibold text-white mb-1 md:mb-2">
+            LinkedIn
+          </h3>
           <div className="opacity-0 -translate-y-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
-            <p className="text-gray-300 font-[cursive]">
+            <p className="text-gray-300 font-[cursive] text-xs md:text-base">
               www.linkedin.com/in/lutfi-robbani
             </p>
           </div>
@@ -55,12 +61,16 @@ export default function Contact() {
           className="group block text-center"
         >
           {/* Lingkaran Icon */}
-          <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4 transition-transform duration-300 group-hover:scale-110">
-            <Github className="text-white" size={24} />
+          <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-4 transition-transform duration-300 group-hover:scale-110">
+            <Github className="text-white" size={18} md:size={24} />
           </div>
-          <h3 className="text-lg font-semibold text-white mb-2">GitHub</h3>
+          <h3 className="text-sm md:text-lg font-semibold text-white mb-1 md:mb-2">
+            GitHub
+          </h3>
           <div className="opacity-0 -translate-y-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
-            <p className="text-gray-300 font-[cursive]">github.com/Lutfi1412</p>
+            <p className="text-gray-300 font-[cursive] text-xs md:text-base">
+              github.com/Lutfi1412
+            </p>
           </div>
         </a>
       </div>
