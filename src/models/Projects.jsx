@@ -5,8 +5,7 @@ const ProjectsModel = [
         tittle: "Attendance Web",
         deskripsi:
           "Attendance Web based on geolocation and face recognition to ensure valid and accurate presence. The system verifies the user's location while matching their face with the registered data, making attendance more secure, efficient, and difficult to falsify. This project won 4th place in the Unlimatid Software Building competition.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/web/absen.png",
 
         tags: ["React Js", "Express", "Face Recognition", "My SQL"],
         liveUrl: null,
@@ -16,8 +15,7 @@ const ProjectsModel = [
         tittle: "Fidusiaku",
         deskripsi:
           "Fidusiaku is an Angular-based application I developed during my internship, focusing on asset ownership management with banking service integration. This project was built in collaboration with Bank Mega to support transparency and security in ownership records. (private github)",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/web/fidusiaku.png",
 
         tags: ["Angular"],
         liveUrl: "https://app-dev.fidusiaku.id/account/login/option/1",
@@ -27,8 +25,7 @@ const ProjectsModel = [
         tittle: "Portfolio Website",
         deskripsi:
           "A personal portfolio website built with React.js to showcase my profile, skills, and completed projects. It is designed with a modern, interactive, and responsive interface to make it easy for people to explore my work.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/web/porto.png",
 
         tags: ["React Js"],
         liveUrl: null,
@@ -38,8 +35,7 @@ const ProjectsModel = [
         tittle: "Queue Management Web",
         deskripsi:
           "Queue Management Web is a digital queuing system built with TypeScript for the frontend, Golang for the backend, and PostgreSQL as the main database. This application is designed to simplify queue management efficiently, quickly, and in a structured manner.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/web/antrian.png",
 
         tags: ["TypeScript", "Golang", "Postgres"],
         liveUrl: "https://web-antrian-dun.vercel.app/",
@@ -49,8 +45,7 @@ const ProjectsModel = [
         tittle: "E-Commerce",
         deskripsi:
           "An E-Commerce platform built with Laravel and integrated with the Midtrans payment system. This application was developed to support secure and efficient online transactions, featuring product management, shopping cart, and a fully integrated checkout with payment gateway.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/web/ecommerse.png",
 
         tags: ["Laravel"],
         liveUrl: null,
@@ -106,8 +101,7 @@ const ProjectsModel = [
         tittle: "Image Classification",
         deskripsi:
           "Image Classification project using TensorFlow, NumPy, Python, and Matplotlib to classify animal images into three categories: Dogs, Butterflies, and Spiders. The model was trained to recognize visual patterns and distinguish between each class using deep learning techniques and data visualization.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/menhera_ml.png",
 
         tags: ["Tensorflow", "Numpy", "Python", "matplotlib"],
         liveUrl: null,
@@ -117,8 +111,7 @@ const ProjectsModel = [
         tittle: "Data Analysis",
         deskripsi:
           "E-Commerce Data Analysis project aimed at evaluating sales trends, customer behavior, and product performance. This analysis applies data processing techniques to generate insights that support business strategies and decision-making.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/menhera_ml.png",
 
         tags: ["Pandas", "Numpy", "Seaborn", "Python", "matplotlib"],
         liveUrl: null,
@@ -128,8 +121,7 @@ const ProjectsModel = [
         tittle: "Clustering and Data Classification",
         deskripsi:
           "Clustering and Data Classification project on beverage sales with the goal of grouping products based on sales patterns and classifying data to identify beverage categories with high or low performance. This analysis helps to understand consumer trends and support marketing strategies.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/menhera_ml.png",
 
         tags: ["Pandas", "Skearn", "Seaborn", "Python", "matplotlib"],
         liveUrl: null,
@@ -142,8 +134,7 @@ const ProjectsModel = [
         tittle: "Student Application",
         deskripsi:
           "My first mobile application as a freelancer for MiMath learning company. This app helps students access materials, exercises, and learning activities digitally.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/mobile/mimath.jpeg",
         tags: ["Kotlin", "Supabase"],
         liveUrl: null,
         githubUrl: "https://github.com/Lutfi1412/",
@@ -152,8 +143,7 @@ const ProjectsModel = [
         tittle: "Tax Application",
         deskripsi:
           "A desktop application that automatically takes a screenshot every 5 seconds, then processes and scrapes data from the images for tax analysis purposes.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/mobile/pajak.png",
         tags: ["Kotlin", "Golang", "Postgres"],
         liveUrl: null,
         githubUrl: "https://github.com/Lutfi1412/aplikasi-pajak",
@@ -162,18 +152,17 @@ const ProjectsModel = [
         tittle: "Mobile Legend Analysis",
         deskripsi:
           "A Mobile Legend analysis application that uses data scraping to identify heroes that are currently meta, overpowered, or underrated in real-time.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/mobile/analis.jpeg",
         tags: ["Kotlin", "Golang"],
-        liveUrl: null,
+        liveUrl:
+          "https://drive.google.com/file/d/1QJe0EImntjiYgjUvoUz6X40jhv1gjqLt/view?usp=sharing",
         githubUrl: "https://github.com/Lutfi1412/mobille-legend-analys",
       },
       {
         tittle: "VSGA Project",
         deskripsi:
           "The final project in the VSGA program as a requirement to obtain the Mobile Junior Developer certificate from BNSP. This app was developed with Kotlin as proof of mobile development competency.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/mobile/VSGA.jpeg",
         tags: ["Kotlin"],
         liveUrl: null,
         githubUrl: "https://github.com/Lutfi1412/ProjekAkhirVSGA",
@@ -182,8 +171,7 @@ const ProjectsModel = [
         tittle: "SQLite Application",
         deskripsi:
           "A mobile application built with Kotlin integrated with SQLite to store and manage data locally, designed as an implementation of offline data management.",
-        image:
-          "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
+        image: "/images/mobile/sql.png",
         tags: ["Kotlin"],
         liveUrl: null,
         githubUrl: "https://github.com/Lutfi1412/ProjekAkhirVSGA",
