@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "name": "Jumantik Malaka Sari",
+    "subname": "(Kelurahan Malaka Sari - Fullstack Developer)",
+    "katergori": "Website",
+    "image": "./assets/images/1.png",
+    "deskripsi": "The Jumantik Malaka Sari application is a web-based system developed to support data collection and reporting activities of Jumantik (Larvae Monitoring Volunteers) in the Malaka Sari district. The application allows officers to record environmental monitoring data and submit reports including photos of standing water that may become breeding grounds for mosquitoes that cause Dengue Fever (DBD).\n\nThe system also includes authentication and role-based access management to ensure that each user has appropriate permissions, maintaining data security and integrity. In addition, a chatbot feature is provided to allow residents to interact with the system and ask questions related to Jumantik activities and dengue prevention.\n\nThis application was built using a modern architecture with Golang for the backend, React for the frontend, and PostgreSQL as the database.",
+    "url": "https://github.com/Lutfi1412/JumantikMalakaSari"
+  },
+  {
+    "id": 2,
+    "name": "SIPEDIS",
+    "subname": "(Coding Camp powered by DBS Foundation - Machine Learning Engineer)",
+    "image": "./assets/images/2.png",
+    "katergori": "Machine Learning",
+    "deskripsi": "SIPEDIS (Early Disease Detection System) is an Artificial Intelligence-based application designed to assist in early disease detection through chatbot interaction and medical image analysis. This project was developed as a final capstone project during the Coding Camp powered by DBS Foundation in the Machine Learning Engineer learning path.\n\nIn this application, users can interact with a chatbot to ask questions about symptoms or health-related information, similar to an initial consultation with a doctor. The system also provides an image analysis feature that helps detect potential skin diseases such as skin cancer using machine learning models based on computer vision.\n\nSIPEDIS was developed collaboratively with a team by integrating chatbot technology, AI-based image processing, and backend systems that support data processing and machine learning model integration to provide fast and informative analysis results.",
+    "url": "https://github.com/sipedis"
+  },
+  {
+    "id": 3,
+    "name": "Fidusia",
+    "subname": "(PT Limanara - Frontend Developer)",
+    "image": "./assets/images/3.png",
+    "katergori": "Website",
+    "deskripsi": "The Fidusia Management System is a web application developed to manage fiduciary collateral data digitally between notaries, collateral assets, and financial transactions. The application enables users to record, manage, and monitor data in an integrated system, making administrative processes more efficient and structured.\n\nThe application was built using Angular with a responsive user interface based on Bootstrap. It is also integrated with APIs to display and manage data dynamically within the system.\n\nThis project was developed in collaboration with a client from Bank Mega, working together with a development team to ensure the system meets user requirements and business needs.",
+    "url": "https://github.com/Lutfi1412/Fidusiaku-fe"
+  },
+  {
+    "id": 4,
+    "name": "Mimath Learning Management System",
+    "subname": "(Mimath - Fullstack Development)",
+    "image": "./assets/images/4.png",
+    "katergori": "Application & Website",
+    "deskripsi": "Mimath Learning Management System is a digital learning platform designed to support teaching and learning activities. The system allows teachers to manage classes, distribute learning materials, and create interactive quizzes, making the learning process more organized and efficient.\n\nThe platform consists of multiple applications, including a Kotlin-based multiplatform student application where students can join classes, complete assignments, and access learning materials. In addition, there is a React.js-based web platform for teachers to create classes, organize materials, and manage quizzes and questions.\n\nThe entire system is powered by a backend API built with Golang and uses PostgreSQL as the database. Authentication mechanisms are implemented on both the frontend and backend to ensure secure access and proper user role management within the platform.",
+    "url": "https://github.com/Lutfi1412/siswa"
+  }
+]
